@@ -1,0 +1,66 @@
+.logo {
+    width: 24.5px;
+    height: 28px;
+    padding: 38px 70px;
+
+}
+
+.pages {
+    position: relative;
+    top: -105px;
+    left: 105px;
+    justify-content: space-between;
+    color: white;
+    width: 24.5px;
+    height: 28px;
+    font-size: xx-large;
+}
+
+
+.container {
+    position: absolute;
+    width: 81.39px;
+    height: 26.41px;
+    top: 7.64px;
+    left: 600px;
+    display: inline-flex;
+    margin: 20px;
+    gap: 35px;
+
+    color: #F6F8FC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+
+}
+
+
+.btn {
+    position: relative;
+    top: -160px;
+    left: 1230px;
+    box-sizing: border-box;
+
+    height: 66px;
+    width: 222px;
+
+    background: #FFCA42;
+    border: 2px solid #FFCA42;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+
+    color: #1B3764;
+}
+
+
+.home {
+    color: #FFCA42;
+}
