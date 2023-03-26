@@ -7,8 +7,8 @@
 
 .pages {
     position: relative;
-    top: -105px;
-    left: 105px;
+    top: -110px;
+    left: 100px;
     justify-content: space-between;
     color: white;
     width: 24.5px;
@@ -24,7 +24,7 @@
     top: 7.64px;
     left: 600px;
     display: inline-flex;
-    margin: 20px;
+    margin: 45px;
     gap: 35px;
 
     color: #F6F8FC;
@@ -33,6 +33,8 @@
     font-weight: 400;
     font-size: 17px;
     letter-spacing: 0.17px;
+
+    text-decoration: none;
 
 }
 
@@ -63,4 +65,10 @@
 
 .home {
     color: #FFCA42;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
 }

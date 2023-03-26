@@ -1,22 +1,30 @@
 import React from "react";
 import s from "./style.module.css";
+import { NavLink } from "react-router-dom";
 
 function MainPage(props) {
   return (
     <div className={s.container}>
       <p className={s.welcome}>Welcome To Pages!!!</p>
+
       <h1>
         Your Books From <br></br>
         The Best Writer.
       </h1>
+
       <p className={s.believe}>
         We believe that reading books are essential to a healthy culture.{" "}
         <br></br>
         They're where authors can connect with readers.
       </p>
+
       <img className={s.book} src={require("./book.png")} alt="book" />
+
       <button className={s.btn}>Order Today </button>
-      <p className={s.demo}>Read Free Demo</p>
+
+      <NavLink to="/demo" className={s.demo}>
+        Read Free Demo
+      </NavLink>
 
       <ul className={s.info}>
         <li>Pages:</li>
