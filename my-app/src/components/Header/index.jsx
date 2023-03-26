@@ -5,8 +5,11 @@ import s from "./style.module.css";
 function Header(props) {
   return (
     <header>
-      <img className={s.logo} src={require("./images/icon.png")} />
+      <img className={s.logo} src={require("../Header/images_header/icon.png")} />
       <p className={s.pages}> Pages </p>
+      <img className={s.icon} src={require("../Header/images_header/face.png")} />
+      <img className={s.icon} src={require("../Header/images_header/twitt.png")} />
+      <img className={s.icon} src={require("../Header/images_header/linked.png")} />
       <nav className={s.container}>
         <NavLink to="/" className={s.home}>
           Home

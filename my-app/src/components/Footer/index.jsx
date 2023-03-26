@@ -5,8 +5,13 @@ import s from "./style.module.css";
 function Footer(props) {
   return (
     <footer>
-      <img className={s.logo} src={require("./icon.png")} />
-      <p className={s.pages}>Pages</p>
+   
+      <img className={s.logo} src={require("../Footer/images_footer/icon.png")} />
+      <p className={s.pages}> Pages </p>
+      <img className={s.icon} src={require("../Footer/images_footer/face.png")} />
+      <img className={s.icon} src={require("../Footer/images_footer/twitt.png")} />
+      <img className={s.icon} src={require("../Footer/images_footer/linked.png")} />
+      <img className={s.icon} src={require("../Footer/images_footer/insta.png")} />
 
       <ul>
         <li className={s.container}>
