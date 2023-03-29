@@ -1,14 +1,20 @@
 import AboutAuthor from "./components/AboutAuthor";
-import Footer from "./components/Footer";
+import MainPage from "./components/Main";
+import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import MainPage from "./components/MainPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <MainPage />
-      <AboutAuthor />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/author" element={<AboutAuthor />} />
+        {/* <Route path="/basket" element={<BasketPage />} />
+        <Route path="/category/:category" element={<ProductsPage />} /> */}
+        {/* <Route path="/*" element={<NotFoundPage />} /> */}
+      </Routes>
       <Footer />
     </div>
   );

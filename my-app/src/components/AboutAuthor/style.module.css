@@ -1,18 +1,275 @@
-.author{
-position: relative;
-width: 370px;
-height: 51px;
-left: calc(50% - 370px/2);
-top: -4px;
+.about_books {
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr;
+    background-color: #F5F5F5;
+    width: 1440px;
+    height: 960px;
+    left: 4.86%;
+    right: 4.86%;
+    top: 10px;
 
-font-family: 'Cardo';
-font-style: normal;
-font-weight: 400;
-font-size: 42px;
-line-height: 50px;
+}
 
-text-align: center;
-text-transform: capitalize;
 
-color: #1B3764;
+h1 {
+    width: 370px;
+    height: 51px;
+    left: calc(50% - 370px/2);
+    top: -4px;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1B3764;
+
+}
+
+.container_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #F5F5F5;
+    width: 1440px;
+    height: 960px;
+    left: 4.86%;
+    right: 4.86%;
+    top: 10px;
+}
+
+
+h2 {
+    color: #1B3764;
+    height: 39px;
+    left: 0%;
+    right: 34.6%;
+    top: 16.55px;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    letter-spacing: 0.32px;
+}
+
+.dollar {
+    height: 33px;
+    left: 0%;
+    right: 59.05%;
+    top: 62.55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 33px;
+
+    color: #FFCA42;
+}
+
+.description {
+    height: 86px;
+    left: 0%;
+    right: 8.89%;
+    top: 16.55px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+
+    color: #969AA0;
+
+
+}
+
+.book {
+    height: 29px;
+    left: 8.25%;
+    right: 45.4%;
+    top: calc(50% - 29px/2 - 5.45px);
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1B3764;
+
+}
+
+.container_two {
+    width: 1440px;
+    height: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #F5F8FC;
+}
+
+
+.atomic {
+    height: 51px;
+    left: 0%;
+    right: 40.83%;
+    top: -3.91px;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+
+    text-transform: capitalize;
+
+    color: #1B3764;
+}
+
+.dark_light {
+    height: 39px;
+    left: 0%;
+    right: 25.08%;
+    top: 16.55px;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.32px;
+
+    color: #1B3764;
+}
+
+.img {
+    width: 285px;
+    height: 382px;
+}
+
+.photo {
+    height: 620px;
+    left: -5.5%;
+    right: 9.17%;
+    top: calc(50% - 620px/2 - 40px);
+
+    filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
+    border-radius: 0px;
+}
+
+.stories {
+    height: 137px;
+    left: 0%;
+    right: 7.6%;
+    top: 106.09px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    /* or 180% */
+
+
+    color: #969AA0;
+}
+
+.numbers {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 22px;
+    left: 7.45%;
+    right: 6.21%;
+    top: 77.09px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #969AA0;
+}
+
+.code_container {
+
+    position: relative;
+    width: 484px;
+    height: 161px;
+    top: -15px;
+    left: 0%;
+    right: 0%;
+    top: 100px;
+
+
+    background: #1B3764;
+    border-radius: 0px;
+}
+
+.qr {
+    height: 130px;
+    width: 130px;
+    left: 0%;
+    right: 70.72%;
+    top: calc(50% - 130px/2 + 0.09px);
+
+    border-radius: 0px;
+    padding: 15px;
+
+}
+
+.name {
+    position: relative;
+    top: -150px;
+    left: 200px;
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #FFCA42;
+}
+
+email {
+    position: relative;
+    top: -160px;
+    left: 200px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    letter-spacing: 0.19px;
+
+    color: #B4C7E7;
+}
+
+phone {
+    position: relative;
+    top: -130px;
+    left: -40px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    letter-spacing: 0.19px;
+
+    color: #B4C7E7;
 }

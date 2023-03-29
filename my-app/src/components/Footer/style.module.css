@@ -110,7 +110,7 @@ p1 {
     align-items: space-between;
 }
 
-.address {
+/* .address {
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -130,7 +130,7 @@ p1 {
     margin-top: 35px;
     gap: 40px;
 
-}
+} */
 
 .icon {
     position: relative;

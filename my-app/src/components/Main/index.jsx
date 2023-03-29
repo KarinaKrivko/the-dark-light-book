@@ -2,15 +2,14 @@ import React from "react";
 import s from "./style.module.css";
 import { NavLink } from "react-router-dom";
 
-function MainPage(props) {
+function Main(props) {
   return (
+    <main>
     <div className={s.container}>
       <p className={s.welcome}>Welcome To Pages!!!</p>
 
-      <h1>
-        Your Books From <br></br>
-        The Best Writer.
-      </h1>
+      <p className={s.best_writer}>Your Books From <br></br>
+      The Best Writer.</p>
 
       <p className={s.believe}>
         We believe that reading books are essential to a healthy culture.{" "}
@@ -38,7 +37,8 @@ function MainPage(props) {
         <p>4.5/5(305 ratings)</p>
       </div>
     </div>
+    </main>
   );
 }
 
-export default MainPage;
+export default Main;

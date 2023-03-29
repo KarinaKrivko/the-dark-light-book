@@ -1,3 +1,9 @@
+main{
+width: 1440px;
+height: 1109px;
+}
+
+
 .book {
     position: absolute;
     height: 800px;
@@ -17,7 +23,7 @@
     height: 36px;
     left: 7%;
     right: 54.84%;
-    top: 60px;
+    top: 240px;
 
     font-family: 'Cardo';
     font-style: normal;
@@ -31,12 +37,11 @@
     color: #FFFFFF;
 }
 
-h1 {
+.best_writer {
     position: relative;
     height: 78px;
-    left: 5%;
-    right: 13.03%;
-    top: 20px;
+    left: 3%;
+    top: 180px;
 
     font-family: 'Cardo';
     font-style: normal;
@@ -54,9 +59,9 @@ h1 {
     position: relative;
 
     height: 29px;
-    left: 7%;
+    left: 5%;
     right: 4.54%;
-    top: 60px;
+    top: 210px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -69,8 +74,8 @@ h1 {
 
 .btn {
     position: relative;
-    top: 100px;
-    left: 7%;
+    top: 270px;
+    left: 5%;
     box-sizing: border-box;
 
     height: 66px;
@@ -94,8 +99,8 @@ h1 {
     position: relative;
     display: flex;
     height: 31px;
-    left: 30%;
-    top: 30px;
+    left: 26%;
+    top: 220px;
 
     font-family: 'Cardo';
     font-style: normal;
@@ -111,10 +116,14 @@ h1 {
 
 
 .info {
+    position: relative;
     display: flex;
     flex-direction: row;
     gap: 45px;
     height: 29px;
+    top: 250px;
+    left: 4%;
+
 
     font-family: 'Cardo';
     font-style: normal;
@@ -125,8 +134,6 @@ h1 {
     letter-spacing: 0.48px;
 
     color: #FFFFFF;
-    padding: 70px;
-    margin: 40px;
 }
 
 li {
@@ -134,9 +141,13 @@ li {
 }
 
 .extra_info {
+    position: relative;
+
     display: flex;
     flex-direction: row;
     gap: 45px;
+    top: 230px;
+    left: 7%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -147,7 +158,5 @@ li {
 
     color: #B4C7E7;
     padding: -5px;
-    margin: 110px;
-    margin-top: -120px;
-
+  
 }

@@ -5,7 +5,7 @@ import s from "./style.module.css";
 function Footer(props) {
   return (
     <footer>
-   
+
       <img className={s.logo} src={require("../Footer/images_footer/icon.png")} />
       <p className={s.pages}> Pages </p>
       <img className={s.icon} src={require("../Footer/images_footer/face.png")} />
@@ -40,13 +40,12 @@ function Footer(props) {
         <p> Mail: </p>
         <p>Phone: </p>
       </div>
-      <div className={s.address}>
-        <address>
+      <div className={s.contact_info}>
+        <p>
           24A Kingston St, Los Vegas <br></br>
-          NC 28202, USA.
-        </address>
-        <email>support@pages.com</email>
-        <phone>Phone: (+22) 123 - 4567 - 900</phone>
+          NC 28202, USA. <br></br>
+       support@pages.com <br></br>
+        Phone: (+22) 123 - 4567 - 900 </p>
       </div>
     </footer>
   );
