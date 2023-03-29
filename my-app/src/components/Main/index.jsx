@@ -26,15 +26,15 @@ function Main(props) {
       </NavLink>
 
       <ul className={s.info}>
-        <li>Pages:</li>
-        <li>Length:</li>
-        <li>Rating:</li>
+        <li>Pages:</li><br></br>
+        <li>Length:</li><br></br>
+        <li>Rating:</li><br></br>
       </ul>
 
       <div className={s.extra_info}>
-        <p>250pages</p>
-        <p>10 Hours</p>
-        <p>4.5/5(305 ratings)</p>
+        <p>250pages</p><br></br>
+        <p>10 Hours</p><br></br>
+        <p>4.5/5(305 ratings)</p><br></br>
       </div>
     </div>
     </main>

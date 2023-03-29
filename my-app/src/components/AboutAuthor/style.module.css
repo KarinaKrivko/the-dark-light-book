@@ -1,3 +1,10 @@
+main {
+width: 1340px;
+height: 1500px;
+}
+
+
+
 .about_books {
     display: grid;
     grid: 1fr 1fr 1fr 1fr;
@@ -12,10 +19,8 @@
 
 
 h1 {
-    width: 370px;
-    height: 51px;
-    left: calc(50% - 370px/2);
-    top: -4px;
+    position: relative;
+    text-align: center;
 
     font-family: 'Cardo';
     font-style: normal;
@@ -23,11 +28,21 @@ h1 {
     font-size: 42px;
     line-height: 50px;
 
-    text-align: center;
     text-transform: capitalize;
 
     color: #1B3764;
 
+}
+
+.line{
+    position: relative;
+height: 3px;
+left: 48.08%;
+right: 48.08%;
+top: -10px;
+
+background: #FFCA42;
+border-radius: 0px;
 }
 
 .container_one {
@@ -39,6 +54,7 @@ h1 {
     left: 4.86%;
     right: 4.86%;
     top: 10px;
+    padding: 40px;
 }
 
 
@@ -107,11 +123,15 @@ h2 {
 }
 
 .container_two {
+    position: relative;
+    top: -500px;
     width: 1440px;
-    height: 960px;
+    height: 680px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: #F5F8FC;
+    padding: 38px;
+
 }
 
 
