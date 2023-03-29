@@ -1,10 +1,8 @@
-
 .about_books {
     display: grid;
     grid: 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
-    /* width: 1440px; */
-    height: 1350px;
+    height: 1450px;
     left: 4.86%;
     right: 4.86%;
     top: 10px;
@@ -37,18 +35,19 @@ h1 {
 
     background: #FFCA42;
     border-radius: 0px;
+
 }
 
 .container_one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
-    /* width: 1440px; */
     height: 960px;
     left: 4.86%;
     right: 4.86%;
     top: 10px;
     padding: 40px;
+
 }
 
 
@@ -96,8 +95,6 @@ h2 {
     line-height: 28px;
 
     color: #969AA0;
-
-
 }
 
 .book {
@@ -119,7 +116,6 @@ h2 {
 .container_two {
     position: relative;
     top: -500px;
-    /* width: 1440px; */
     height: 680px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -157,7 +153,6 @@ h2 {
     font-weight: 400;
     font-size: 42px;
     line-height: 50px;
-    /* identical to box height, or 120% */
 
     letter-spacing: 0.32px;
 
@@ -190,7 +185,6 @@ h2 {
     font-weight: 400;
     font-size: 19px;
     line-height: 34px;
-    /* or 180% */
 
 
     color: #969AA0;

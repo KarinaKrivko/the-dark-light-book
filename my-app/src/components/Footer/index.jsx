@@ -50,8 +50,10 @@ function Footer(props) {
 
       <div className={s.contacts}>
         <h3>Keep in Touch</h3>
-        <p>Address: 24A Kingston St, Los Vegas<br></br>
-          NC 28202, USA.</p>
+        <p>
+          Address: 24A Kingston St, Los Vegas<br></br>
+          NC 28202, USA.
+        </p>
         <p> Mail: support@pages.com </p>
         <p>Phone: (+22) 123 - 4567 - 900 </p>
       </div>
