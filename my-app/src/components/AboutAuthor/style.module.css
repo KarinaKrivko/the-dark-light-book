@@ -1,16 +1,10 @@
-main {
-width: 1340px;
-height: 1500px;
-}
-
-
 
 .about_books {
     display: grid;
     grid: 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
-    width: 1440px;
-    height: 960px;
+    /* width: 1440px; */
+    height: 1350px;
     left: 4.86%;
     right: 4.86%;
     top: 10px;
@@ -34,22 +28,22 @@ h1 {
 
 }
 
-.line{
+.line {
     position: relative;
-height: 3px;
-left: 48.08%;
-right: 48.08%;
-top: -10px;
+    height: 3px;
+    left: 48.08%;
+    right: 48.08%;
+    top: -10px;
 
-background: #FFCA42;
-border-radius: 0px;
+    background: #FFCA42;
+    border-radius: 0px;
 }
 
 .container_one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F5F5F5;
-    width: 1440px;
+    /* width: 1440px; */
     height: 960px;
     left: 4.86%;
     right: 4.86%;
@@ -125,7 +119,7 @@ h2 {
 .container_two {
     position: relative;
     top: -500px;
-    width: 1440px;
+    /* width: 1440px; */
     height: 680px;
     display: grid;
     grid-template-columns: 1fr 1fr;

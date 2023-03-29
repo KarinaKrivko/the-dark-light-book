@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Main(props) {
   return (
-    <main>
+
     <div className={s.container}>
       <p className={s.welcome}>Welcome To Pages!!!</p>
 
@@ -37,7 +37,7 @@ function Main(props) {
         <p>4.5/5(305 ratings)</p><br></br>
       </div>
     </div>
-    </main>
+   
   );
 }
 

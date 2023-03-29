@@ -1,7 +1,4 @@
-main {
-    width: 1440px;
-    height: 1000px;
-}
+
 
 
 .book {
@@ -16,6 +13,8 @@ main {
 .container {
     color: #FFFFFF;
     padding: 30px;
+    width: 1440px;
+    height: 900px;
 }
 
 .welcome {

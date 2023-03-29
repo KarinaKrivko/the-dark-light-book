@@ -4,7 +4,7 @@ import s from "./style.module.css";
 
 function AboutAuthor(props) {
   return (
-  <main>
+
     <div className={s.about_books}>
             <h1>The Author's Book</h1>
             <img className={s.line} src={require("./images/line.png")} />
@@ -78,7 +78,7 @@ function AboutAuthor(props) {
         </div>
         </div>
       </div>
-      </main>
+     
   );
 }
 
