@@ -5,7 +5,7 @@ import s from "./style.module.css";
 function Companies(props) {
   return (
     <div className={s.block_one}>
-      <NavLink to="/companies" />
+      <NavLink to="/companies" /> 
       <h1>Trusted By The Best</h1>
       <img className={s.line} src={require("./images/line.png")} />
 

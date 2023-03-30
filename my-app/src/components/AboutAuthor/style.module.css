@@ -29,13 +29,11 @@ h1 {
 .line {
     position: relative;
     height: 3px;
-    left: 48.08%;
+    left: 47%;
     right: 48.08%;
-    top: -10px;
-
     background: #FFCA42;
     border-radius: 0px;
-
+    top: -85px;
 }
 
 .container_one {

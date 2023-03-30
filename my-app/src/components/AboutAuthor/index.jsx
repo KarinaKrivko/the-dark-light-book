@@ -8,7 +8,7 @@ function AboutAuthor(props) {
       <h1>The Author's Book</h1>
       <img className={s.line} src={require("./images/line.png")} />
 
-      <NavLink to="/author" />
+      <NavLink to="/author" /> 
       <div className={s.container_one}>
         <div>
           <img className={s.img} src={require("./images/atomicBook.png")} />
