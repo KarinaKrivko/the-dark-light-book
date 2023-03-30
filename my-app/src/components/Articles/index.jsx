@@ -4,6 +4,7 @@ import s from "./styles.module.css";
 
 function Articles(props) {
   return (
+    <div>
     <div className={s.learn_block}>
       <NavLink to="/articles" />
       <div>
@@ -29,6 +30,34 @@ function Articles(props) {
       </div>
     </div>
     </div>
+    <div className={s.resources_block}>
+    <h2>Articles & Resources</h2>
+            <img className={s.linie} src={require("./images/yellow_line.png")} />
+            <div className={s.second_container}>
+  <img className={s.grid_one} src={require("./images/one.png")} />
+  <img className={s.grid_two} src={require("./images/two.png")} />
+  <img className={s.grid_three} src={require("./images/three.png")} />
+  </div>
+  <div className={s.context_container}>
+    <div className={s.context_one}>
+      <p className={s.p1}>Significant reading has more info number</p>
+      <p className={s.p2}>Override the digital divide with<br></br> additional clickthroughs from DevOps<br></br>  for real-time schemas.</p>
+      <p className={s.p3}>October 6, 2021</p>
+    </div>
+    <div className={s.context_two}>
+      <p className={s.p1}>Many variations of pass majority have suffered</p>
+      <p className={s.p2}>Capitalize on low-hanging fruit to  <br></br> identify a ballpark value-added activity   <br></br> to beta test.</p>
+      <p className={s.p3}>October 6, 2021</p>
+    </div>
+    <div className={s.context_three}>
+      <p className={s.p1}>Words which don’t look even slightly believable</p>
+      <p className={s.p2}>Podcasting operational change <br></br>  management inside of workflows <br></br>  to  establish a framework.</p>
+      <p className={s.p3}>October 6, 2021</p>
+    </div>
+  </div>
+    </div>
+    </div>
+
   );
 }
 
